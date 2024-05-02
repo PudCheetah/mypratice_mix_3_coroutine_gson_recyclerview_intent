@@ -1,4 +1,4 @@
-package com.example.mypratice_mix_2_coroutine_gson_recyclerview
+package com.example.mypratice_mix_3_coroutine_gson_recyclerview_intent
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -20,7 +20,7 @@ class ExampleInstrumentedTest {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
         assertEquals(
-            "com.example.mypratice_mix_2_coroutine_gson_recyclerview",
+            "com.example.mypratice_mix_3_coroutine_gson_recyclerview_intent",
             appContext.packageName
         )
     }

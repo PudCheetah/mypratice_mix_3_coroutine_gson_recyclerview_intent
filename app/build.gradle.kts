@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mypratice_mix_2_coroutine_gson_recyclerview"
+    namespace = "com.example.mypratice_mix_3_coroutine_gson_recyclerview_intent"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.mypratice_mix_2_coroutine_gson_recyclerview"
+        applicationId = "com.example.mypratice_mix_3_coroutine_gson_recyclerview_intent"
         minSdk = 26
         targetSdk = 34
         versionCode = 1

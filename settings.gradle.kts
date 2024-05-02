@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "mypratice_mix_2_coroutine_gson_recyclerview"
+rootProject.name = "mypratice_mix_3_coroutine_gson_recyclerview_intent"
 include(":app")
  

@@ -1,4 +1,4 @@
-package com.example.mypratice_mix_2_coroutine_gson_recyclerview.MyDatabase
+package com.example.mypratice_mix_3_coroutine_gson_recyclerview_intent.MyDatabase
 
 import com.google.gson.annotations.SerializedName
 
