@@ -34,6 +34,7 @@ class MyAdapter(var myViewModel: MyViewModel): RecyclerView.Adapter<MyAdapter.My
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
+        println("MyAdapter-1(RecyclerView Adapter-start)")
         with(holder) {
             reportNo.text = myViewModel.getReport("reportNo" , position)
             reportType.text = myViewModel.getReport("reportType", position)
@@ -41,11 +42,13 @@ class MyAdapter(var myViewModel: MyViewModel): RecyclerView.Adapter<MyAdapter.My
             reportColor.text = myViewModel.getReport("reportColor", position)
             tsunamiNo.text = "海嘯編號: ${myViewModel.getReport("tsunamiNo", position)}"
             myConstraintlayout.setOnClickListener {
+                println("MyAdapter-2(myConstraintlayou-ontouchEvent-setOnClickListener-start)")
                 myIntent = Intent(it.context, DetailActivity::class.java)
                 myIntent.putExtra("RV_position", position)
                 startActivity(it.context, myIntent, null)
+                println("MyAdapter-3(myConstraintlayou-ontouchEvent-setOnClickListener-End)")
             }
         }
-
+        println("MyAdapter-4(RecyclerView Adapter-End)")
     }
 }
