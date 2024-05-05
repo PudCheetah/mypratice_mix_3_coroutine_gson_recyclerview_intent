@@ -29,7 +29,7 @@ class DetailActivity: AppCompatActivity() {
             println("DetailActivity-4(lifecycleScope-start)")
             bindingActivityDetailBinding = ActivityInfoDetailBinding.inflate(layoutInflater)
             println("DetailActivity-5(lifecycleScope joinAll-start)")
-//            joinAll(myViewModel.getJob())
+            joinAll(myViewModel.getJob())
             println("DetailActivity-6(lifecycleScope joinAll-end)")
             var rv_position = intent.getIntExtra("RV_position", -1)
             println("DetailActivity-7")
